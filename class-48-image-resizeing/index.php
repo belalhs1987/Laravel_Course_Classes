@@ -86,7 +86,7 @@
 		
 		
 		 $image = Image::make('img/'.$img_name)->resize($height,$width)->save('img /'.$new_img_name,100);
-		
+		echo "<h1 style='color:red; text-align:center;'>Image has been resized successfully</h1>";
 		 }else{echo "<h1 style='color:red; text-align:center;'>There is no picture </h1>";}
 		
 	}
